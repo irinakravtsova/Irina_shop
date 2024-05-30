@@ -16,6 +16,7 @@ export default {
       }
     }
   },
-  // base: '/shop/'
+  base: '/shop/',
 
 }
+
