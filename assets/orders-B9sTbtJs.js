@@ -1,4 +1,4 @@
-import{y as v,E as u,z as b}from"./storage-BXeZpv23.js";import{c as O}from"./storageOrders-Ckb_myvQ.js";import{a as h}from"./viewErorMsg-BXHX2ySh.js";function $(e){const t=document.querySelector(e);return{orderNode:t,renderOrderAddress:function(s){let r="";const{id:a,userName:d,city:i,line:c,phone:n,deliveryPrice:l,paymentMethod:o,sum:_,total:g}=s;r+=`
+import{y as v,E as u,z as b}from"./storage-724XkIP6.js";import{c as O}from"./storageOrders-Crj3oSg9.js";import{a as h}from"./viewErorMsg-BXHX2ySh.js";function $(e){const t=document.querySelector(e);return{orderNode:t,renderOrderAddress:function(s){let r="";const{id:a,userName:d,city:i,line:c,phone:n,deliveryPrice:l,paymentMethod:o,sum:_,total:g}=s;r+=`
           <h2 class="order__title">Заказ ${a} </h2>
           <div class="orders">
             <div class="checkout__wrapper">

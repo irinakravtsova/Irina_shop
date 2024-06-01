@@ -1,4 +1,4 @@
-import{y as f,E as v}from"./storage-BXeZpv23.js";import"./index.esm2017-fCoYgFFR.js";function S(r){const c=document.querySelector(r);return{bagNode:c,renderBag:function(i,a){let s="";i.forEach(g=>{const{id:t,model:n,series:o,price:d,image:u,descriptionShort:p}=g;s+=`
+import{y as f,E as v}from"./storage-724XkIP6.js";import"./index.esm2017-DI-Dex77.js";function S(r){const c=document.querySelector(r);return{bagNode:c,renderBag:function(i,a){let s="";i.forEach(g=>{const{id:t,model:n,series:o,price:d,image:u,descriptionShort:p}=g;s+=`
           <div class="big__bag__item" data-product-id="${t}">
           <div class="big__bag__item-image">
             <img class="big__bag-image" src="..${u}" alt="">

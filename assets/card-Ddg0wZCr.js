@@ -1,4 +1,4 @@
-import{y as v,E as f}from"./storage-BXeZpv23.js";import{c as w}from"./viewErorMsg-BXHX2ySh.js";function b(e){const a=document.querySelector(e);return{node:a,renderInfoItem:function(c){const{id:t,model:d,series:l,price:g,image:u,description:p,rating:y,descriptionShort:_}=c,m=`
+import{y as v,E as f}from"./storage-724XkIP6.js";import{c as w}from"./viewErorMsg-BXHX2ySh.js";function b(e){const a=document.querySelector(e);return{node:a,renderInfoItem:function(c){const{id:t,model:d,series:l,price:g,image:u,description:p,rating:y,descriptionShort:_}=c,m=`
       <div class="card__content" data-product-id="${t}" >
       <div class="card__image">
         <div class="card__image-wrapper">
