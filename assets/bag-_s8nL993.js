@@ -1,13 +1,13 @@
 import{y as f,E as v}from"./storage-BXeZpv23.js";import{c as S}from"./view-Dzz8Z01X.js";import"./index.esm2017-fCoYgFFR.js";function y(d){const c=document.querySelector(d);return{bagNode:c,renderBag:function(i,n){let o="";i.forEach(l=>{const{id:t,model:a,series:s,price:r,image:u,descriptionShort:p}=l;o+=`
           <div class="big__bag__item" data-product-id="${t}">
           <div class="big__bag__item-image">
-            <img class="big__bag-image" src=".${u}" alt="">
+            <img class="big__bag-image" src="..${u}" alt="">
           </div>
           <div class="big__bag__item__content">
             <h3 class="big__bag__item__content-title">${a}</h3>
             <p class="big__bag__item__content-subtitle">${s}</p>
             <p class="big__bag__item__content-description">${p}</p>
-            <img src="./rating_4.5.png" alt="">
+            <img src="../rating_4.5.png" alt="">
             <div class="price__wrapper">
               <div class="price">
                <div class="price__currency">
@@ -20,11 +20,11 @@ import{y as f,E as v}from"./storage-BXeZpv23.js";import{c as S}from"./view-Dzz8Z
               </div>
               <div class="bag__counter">
                 <button class="minus-btn" data-action="minus" data-id="${t}">
-                  <img class="minus-btn" data-action="minus" data-id="${t}" src="/Increase-Button.png" alt="">
+                  <img class="minus-btn" data-action="minus" data-id="${t}" src="../Increase-Button.png" alt="">
                 </button>
                 <p class="counter" data-counter>${n[t]}</p>
                 <button class="add-btn" data-action="plus" data-id="${t}">
-                  <img class="add-btn" data-action="plus" data-id="${t}" src="/Decrease-Button.png" alt="">
+                  <img class="add-btn" data-action="plus" data-id="${t}" src="../Decrease-Button.png" alt="">
                 </button>
               </div>
              
