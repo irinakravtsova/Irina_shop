@@ -2,7 +2,7 @@ import{y as v,E as f}from"./storage-BXeZpv23.js";import{c as w}from"./view-cakR4
       <div class="card__content" data-product-id="${e}" >
       <div class="card__image">
         <div class="card__image-wrapper">
-          <img class="product__image" src=".${p}" alt="">
+          <img class="product__image" src="..${p}" alt="">
         </div>
         
       </div>
