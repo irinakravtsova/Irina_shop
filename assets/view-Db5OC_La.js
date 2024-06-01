@@ -1,7 +1,7 @@
 function u(c){const n=document.querySelector(c);return{node:n,renderItems:function(a){a.forEach(t=>{const{id:e,model:s,series:d,price:o,image:i}=t,r=`
          <li class="item__card" data-product-id="${e}">
             <a class="image__wrapper" href="/card/card.html?id=${e}" class="image__wrapper"> 
-             <img class="item-image" src="${i}">    
+             <img class="item-image" src=".${i}">    
             </a>
 
           <div class="item__content">
