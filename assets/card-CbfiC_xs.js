@@ -2,7 +2,7 @@ import{y as v,E as f}from"./storage-BXeZpv23.js";import{c as w}from"./view-Dzz8Z
       <div class="card__content" data-product-id="${e}" >
       <div class="card__image">
         <div class="card__image-wrapper">
-          <img class="product__image" src="${p}" alt="">
+          <img class="product__image" src=".${p}" alt="">
         </div>
         
       </div>
@@ -10,20 +10,20 @@ import{y as v,E as f}from"./storage-BXeZpv23.js";import{c as w}from"./view-Dzz8Z
         <h1>${o}</h1>
         <h2 class="subtitle" >${l}</h2>
         <div class="rating">
-           <img class="" src="/rating_4.5.png" alt="">
+           <img class="" src="../rating_4.5.png" alt="">
         </div>
         <div class="price">$ ${g}</div>
         <p class="mini-content">${_}</p>
         <div class="card__btn-wrapper"
           <button class="add-bag" data-action="addBag" data-id=${e}">
-            <img data-action="addBag" data-id=${e} src="/BtnBag_prodactCard.png">
+            <img data-action="addBag" data-id=${e} src="../BtnBag_prodactCard.png">
           </button> 
          
         </div>
       </div>
     </div>
     <div class="card__line">
-      <img src="/Line 2.png" alt="">
+      <img src="../Line 2.png" alt="">
     </div>
     <div class="card__description">
       <h3>Описание</h3>
