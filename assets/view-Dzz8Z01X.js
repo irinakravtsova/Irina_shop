@@ -18,7 +18,7 @@ function u(c){const n=document.querySelector(c);return{node:n,renderItems:functi
         </li>
       `;this.node.insertAdjacentHTML("beforeend",r)})},addItem:function(a){const t=document.createElement("li"),e=document.createElement("a"),s=document.createElement("img"),d=document.createElement("div"),o=document.createElement("a"),i=document.createElement("h2"),r=document.createElement("p"),l=document.createElement("div"),m=document.createElement("p"),p=document.createElement("button");t.classList.add("item__card"),t.dataset.productId=a.id,e.classList.add("image__wrapper"),e.href="itemCard.html?id=item.id",s.classList.add("item-image"),s.src=a.image,d.classList.add("item__content"),i.classList.add("item-model"),i.innerText=a.model,r.classList.add("item-series"),r.innerText=a.series,l.classList.add("price-wrapper"),m.classList.add("item-price"),m.innerText=a.price,p.classList.add("add-bag"),e.append(s),o.append(d),d.append(i,r),l.append(m,p),t.append(e,d),n.append(t)}}}function g(c){return{nodeBag:document.querySelector(c),renderBagPreview:function(a){let t="";a.forEach(e=>{t+=`
               <div class="bag__item">
-                <img class="bag__image" src="${e.image}" alt="">
+                <img class="bag__image" src=".${e.image}" alt="">
               </div>
             `,this.nodeBag.innerHTML=t})}}}function _(c){return{ordersNode:document.querySelector(c),renderOrdersPreview:function(a){let t="";a.forEach(e=>{t+=`
              <a class="order-one bag__orders-text" href="/order/orders.html?id=${e.id}"># ${e.id};</a>

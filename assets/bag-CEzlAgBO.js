@@ -1,4 +1,4 @@
-import{y as f,E as v}from"./storage-BXeZpv23.js";import{c as S}from"./view-Db5OC_La.js";import"./index.esm2017-fCoYgFFR.js";function y(d){const c=document.querySelector(d);return{bagNode:c,renderBag:function(s,n){let o="";s.forEach(g=>{const{id:t,model:a,series:i,price:r,image:u,descriptionShort:p}=g;o+=`
+import{y as f,E as v}from"./storage-BXeZpv23.js";import{c as S}from"./view-Dzz8Z01X.js";import"./index.esm2017-fCoYgFFR.js";function y(d){const c=document.querySelector(d);return{bagNode:c,renderBag:function(s,n){let o="";s.forEach(g=>{const{id:t,model:a,series:i,price:r,image:u,descriptionShort:p}=g;o+=`
           <div class="big__bag__item" data-product-id="${t}">
           <div class="big__bag__item-image">
             <img class="big__bag-image" src="${u}" alt="">
