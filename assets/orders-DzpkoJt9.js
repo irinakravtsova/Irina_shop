@@ -49,7 +49,7 @@ import{y as v,E as u,z as b}from"./storage-BXeZpv23.js";import{c as O}from"./sto
             <div class="big__bag__wrapper order__card-wrapper">
             <div class="big__bag__item" data-product-id="${i}">
             <div class="big__bag__item-image">
-              <img class="big__bag-image" src=".${o}" alt="">
+              <img class="big__bag-image" src="..${o}" alt="">
             </div>
             <div class="big__bag__item__content">
               <h3 class="big__bag__item__content-title">${c}</h3>

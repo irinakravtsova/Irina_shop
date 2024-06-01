@@ -21,7 +21,7 @@ import{L as Hs,a as d,_ as Bs,C as Gs,r as Ut,s as b,j as gt,c as V,b as qs,S as
                 <img class="bag__image" src=".${i.image}" alt="">
               </div>
             `,this.nodeBag.innerHTML=s})}}}function _i(n){return{ordersNode:document.querySelector(n),renderOrdersPreview:function(t){let s="";t.forEach(i=>{s+=`
-             <a class="order-one bag__orders-text" href="/order/orders.html?id=${i.id}"># ${i.id};</a>
+             <a class="order-one bag__orders-text" href="/Irina_shop/order/orders.html?id=${i.id}"># ${i.id};</a>
             
              `}),this.ordersNode.innerHTML=s}}}function pi(n){return{items:n,update:function(e){this.items=e},getItems:function(){return this.items}}}var Gt={};const qt="@firebase/database",Vt="1.0.4";/**
  * @license
